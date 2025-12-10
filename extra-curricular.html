@@ -1,0 +1,208 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>E-Resume - Extra-Curricular Activities</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: rgb(216, 237, 252) no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+            background: rgb(8, 57, 87);
+            z-index: 50;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 70px auto 40px; 
+            padding: 20px;
+        }
+
+        main h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        main h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            text-align: center;
+            color: rgb(8, 57, 87);
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        .activity-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .activity-item {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .activity-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+        .activity-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .activity-item p {
+            padding: 10px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(8, 57, 87);
+            color: white;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="per.info.html">Personal Information</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="extra-curricular.html">Extra-Curricular Activities</a></li>
+            <li><a href="profes.html">Professional Profile</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </nav>
+    </header>
+
+    <main>
+    <br>
+        <h2>Achievements & School Representation</h2>
+        <ul>
+            <li>Represented the school in the Choral Speaking programme.</li>
+            <li>Participated in netball tournaments and secured third place.</li>
+            <li>Joined the Malaysia Future Leader School (MFLS) Programme at the national level.</li>
+            <li>Selected to join the Ijtimak Penerapan Puteri (PPIM) Programme at the national level.</li>
+            <li>Participated in the Puteri Islam State-Level Camping Programme.</li>
+            <li>Facilitator of Nadwah Kepimpinan : Kem Pewaris.</li>
+            <li<Facilitator during the new Form 6 student registration at SMK Seri Teja.</li>
+            <li>Joined the Digital Literacy Programme organised by Perpustakaan Sultan Badlishah, UiTM Kedah.</li>
+            <li>Attended a Mendeley Training Programme to enhance research and citation skills.</li>
+            <li>Participated in SULAM – Hikayat Ilmu: Reviving the Spirit of Reading Programme, serving as a member of the Protocol Committee.</li>
+            <li>Actively took part in programmes organised by UiTM.</li>
+        </ul>
+
+        <div class="activity-gallery">
+            <div class="activity-item">
+                <img src="choral_speaking.jpg" alt="Choral Speaking">
+                <p>Choral Speaking</p>
+            </div>
+            <div class="activity-item">
+                <img src="netball_tournament.jpg" alt="Netball Tournament">
+                <p>Netball Tournament</p>
+            </div>
+            <div class="activity-item">
+                <img src="mfls.jpg" alt="MFLS Programme">
+                <p>MFLS Programme</p>
+            </div>
+            <div class="activity-item">
+                <img src="ppim.jpg" alt="Ijtimak Penerafan Puteri">
+                <p>Ijtimak Penerafan Puteri</p>
+            </div>
+        </div>
+
+        <div style="margin-bottom:0;">
+            <center>
+                <video width="70%" controls style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </center>
+        </div>
+
+        <center style="margin-top:5px; margin-bottom:20px; font-weight:600;">
+            Program SULAM - Hikayat Ilmu : Menghidupkan Jiwa Membaca
+        </center>
+
+        <h2>Leadership & Co-Curricular Roles</h2>
+        <ul>
+            <li>Treasurer of the Sixth Form Student Representative Council (MPP), SMK Seri Teja.</li>
+            <li>School Prefect from Form 1 to Form 5.</li>
+            <li>President of Puteri Islam SMK Seri Teja (2020).</li>
+            <li>President of Netball Club (2020).</li>
+            <li>President of the School Cooperative Club (2020).</li>
+        </ul>
+    </main>
+
+    <footer>
+        &copy; 2025 Zalikha Amir. All rights reserved.
+    </footer>
+
+</body>
+</html>

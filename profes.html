@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>E-Resume - Professional Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: rgb(216, 237, 252);
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* HEADER */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+            background: rgb(8, 57, 87);
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar li {
+            list-style: none;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: rgba(255,255,255,0.2);
+        }
+
+    
+        .container {
+            max-width: 900px;
+            background: white;
+            margin: 150px auto 90px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: rgb(8, 57, 87);
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: rgb(8, 57, 87);
+        }
+
+        
+        .experience {
+            background: #f0f6fc;
+            border-left: 4px solid rgb(8, 57, 87);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+        }
+
+        .experience h3 {
+            margin-bottom: 5px;
+            color: rgb(8, 57, 87);
+        }
+
+        .experience ul {
+            margin: 10px 0 0 18px;
+        }
+
+        
+        .exp-row {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .exp-row img {
+            width: 180px;     
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .exp-text ul {
+            margin-left: 18px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(8, 57, 87);
+            color: white;
+            padding: 12px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="per.info.html">Personal Information</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="extra-curricular.html">Extra-Curricular Activities</a></li>
+            <li><a href="profes.html">Professional Profile</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Professional Profile</h1>
+
+        <div class="section-title">Working Experiences</div>
+
+        <div class="experience">
+            <h3>Rock Garden Camping Resort (Housekeeping Staff)</h3>
+            <ul>
+                <li>Responsible for maintaining the cleanliness of guest rooms and resort areas.</li>
+                <li>Assisted in preparing guest accommodations and ensuring a comfortable stay.</li>
+            </ul>
+        </div>
+
+        
+        <div class="exp-row">
+            <img src="rock_garden.jpg" alt="Rock Garden Resort">
+            <div class="exp-text">
+                <h3 style="text-align:center; color:rgb(8,57,87); margin-top:0.5px;">
+                    Rock Garden Camping Resort
+                </h3>
+                <ul>
+                    <li>Helped with resort preparation and guest welcoming.</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="experience">
+            <h3>School Cooperative (Koperasi SMK Seri Teja) — Cashier & Sales Assistant</h3>
+            <ul>
+                <li>Handled cash transactions and managed daily sales records accurately.</li>
+                <li>Assisted customers in purchasing products and provided good customer service.</li>
+                <li>Helped organize and arrange stock displays to attract students' interest.</li>
+            </ul>
+        </div>
+<div class="exp-row">
+            <img src="koperasi.jpg" alt="Koperasi SMK Seri Teja">
+            <div class="exp-text">
+                <h3 style="text-align:center; color:rgb(8,57,87); margin-top:0.5px;">
+                    Koperasi SMK Seri Teja
+                </h3>
+                <ul>
+                    <li>Helped with stock management and delivered good customer service at the school cooperative.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Zalikha Amir. All rights reserved.
+    </footer>
+
+</body>
+</html>

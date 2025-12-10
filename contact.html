@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>E-Resume - Contact Me</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: rgb(216, 237, 252) no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #333; 
+            line-height: 1.6;
+            position: relative;
+        }
+
+        
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+            background: rgb(8, 57, 87);
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar li {
+            list-style: none;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* CONTACT BOX */
+        .container {
+            max-width: 800px;
+            margin: 150px auto 80px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .container h2 {
+            color: rgb(8, 57, 87);
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 16px;
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 6px;
+            color: rgb(8, 57, 87);
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            background: rgba(8,57,87,0.12);
+        }
+
+       
+        table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+
+        table td {
+            padding: 12px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid #bbb;
+            border-radius: 6px;
+        }
+
+        textarea {
+            height: 120px;
+        }
+
+        button {
+            margin-top: 18px;
+            padding: 12px 22px;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            background: rgb(8, 57, 87);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: rgb(5, 42, 65);
+        }
+
+        
+        footer {
+            text-align: center;
+            background-color: rgb(8, 57, 87);
+            color: white;
+            padding: 12px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="per.info.html">Personal Information</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="extra-curricular.html">Extra-Curricular Activities</a></li>
+            <li><a href="profes.html">Professional Profile</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach me through any platform or send a message below:</p>
+
+        <!-- SOCIAL MEDIA LINKS -->
+        <div class="social-links">
+            <a href="https://www.instagram.com/anzalikhaa?igsh=MXM4d2E1cWlvdTE2MA==" target="_blank">📸 Instagram</a>
+            <a href="https://www.tiktok.com/@anzaaa16?_r=1&_t=ZS-921Zb8btDV6" target="_blank">🎵 TikTok</a>
+            <a href="https://www.facebook.com/annur.zalikha" target="_blank">📘 Facebook</a>
+        </div>
+
+        <!-- CONTACT FORM TABLE -->
+        <form action="mailto:zalikha1610@gmail.com" method="POST" enctype="text/plain">
+            <table>
+                <tr>
+                    <td><strong>Your Name:</strong></td>
+                    <td><input type="text" name="Name" required></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Your Email:</strong></td>
+                    <td><input type="email" name="Email" required></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Message:</strong></td>
+                    <td><textarea name="Message" required></textarea></td>
+                </tr>
+            </table>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+
+    <footer>
+        &copy; 2025 Zalikha Amir. All rights reserved.
+    </footer>
+
+</body>
+</html>

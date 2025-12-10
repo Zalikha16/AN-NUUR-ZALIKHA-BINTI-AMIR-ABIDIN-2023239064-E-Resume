@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Information</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: rgb(216, 237, 252) no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #333; 
+            line-height: 1.6; 
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 0;
+            background: rgb(8, 57, 87);
+            z-index: 100;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .hero {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+            max-width: 1000px;
+            margin: 140px auto 48px;
+            background: white;
+            padding: 28px;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(20, 30, 50, 0.06);
+        }
+
+        .photo img {
+            width: 220px;
+            height: auto;
+            border-radius: 10px;
+            object-fit: contain;
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .name {
+            font-size: 1.9rem;
+            font-weight: 700;
+            color: #12263a;
+            margin-bottom: 6px;
+        }
+
+        .title {
+            font-size: 1.05rem;
+            color: #3a556b;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            background: linear-gradient(90deg, #eef6ff, #f7fbff);
+            padding: 12px 14px;
+            border-left: 4px solid #2b6cb0;
+            border-radius: 6px;
+            color: #134d7a;
+            font-size: 0.98rem;
+            margin-bottom: 16px;
+        }
+
+        .contact {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 18px;
+        }
+
+        .contact .item {
+            background: #f2f7fb;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            color: #23425a;
+        }
+
+        /* SOCIAL MEDIA BUTTONS */
+        .social-links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .social-links a {
+            background: #eef3f6;
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #12384c;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            background: #1f6fb2;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(8, 57, 87);
+            color: white;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="per.info.html">Personal Information</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="extra-curricular.html">Extra-Curricular Activities</a></li>
+            <li><a href="profes.html">Professional Profile</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="photo">
+            <img src="myself.jpg" alt="An Nuur Zalikha">
+        </div>
+
+        <div class="info">
+            <div class="name">AN NUUR ZALIKHA BINTI AMIR ABIDIN</div>
+            <div class="title">BACHELOR OF INFORMATION SCIENCE (HONORS) LIBRARY MANAGEMENT
+            <p>(UiTM Kedah)</div>
+
+            <div class="tagline">
+                Dedicated to organizing knowledge and empowering users through effective information management.
+            </div>
+
+            <div class="contact">
+                <div class="item">📍 Gopeng, Perak, Malaysia</div>
+                <div class="item">✉️ zalikha1610@gmail.com</div>
+                <div class="item">📞 0174420136</div>
+            </div>
+            <div class="personal-info">
+                <h3 style="margin-bottom:6px;">Personal Information</h3>
+                <ul style="list-style:none; padding-left:0; line-height:1.6;">
+                    <li><strong>Date of Birth:</strong> 16 October</li>
+                    <li><strong>Age:</strong> 22 Years Old</li>
+                    <li><strong>Nationality:</strong> Malaysian</li>
+                    <li><strong>Languages:</strong> English & Malay</li>
+                  
+            </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Zalikha Amir. All rights reserved.
+    </footer>
+
+</body>
+</html>
